@@ -1,0 +1,22 @@
+{
+  "name": "serpinfo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "iorate",
+  "type": "module",
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "lefthook": "^1.11.3",
+    "prettier": "^3.5.3"
+  },
+  "packageManager": "pnpm@10.6.2",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "lefthook"
+    ]
+  }
+}
