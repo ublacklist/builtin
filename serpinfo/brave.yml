@@ -1,6 +1,6 @@
 name: Brave
 
-serps:
+pages:
   - name: Web
     matches:
       - https://search.brave.com/search?*
