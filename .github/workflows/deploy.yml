@@ -1,0 +1,52 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: dist
+
+      - name: Copy files from main
+        run: |
+          git fetch --depth=1 origin main
+          git restore --source=origin/main --no-overlay serpinfo
+
+      - name: Update timestamp
+        run: |
+          git add -N serpinfo
+          timestamp=$(date -u "+%Y-%m-%dT%H:%M:%SZ")
+          for file in serpinfo/*.yml; do
+            stat=$(git diff --numstat "$file")
+            if [[ $stat =~ ^1[[:space:]]+1[[:space:]] ]]; then
+              git restore "$file"
+            elif [[ -n $stat ]]; then
+              sed -i "0,/^lastModified: /s/^lastModified: .*/lastModified: $timestamp/" "$file"
+            fi
+          done
+
+      - name: Commit changes
+        run: |
+          if ! git diff --quiet serpinfo; then
+            git config user.name gitub-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add serpinfo
+            git commit -m "update serpinfo"
+            git push
+          fi
