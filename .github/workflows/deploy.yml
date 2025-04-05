@@ -33,11 +33,12 @@ jobs:
           git add -N serpinfo
           timestamp=$(date -u "+%Y-%m-%dT%H:%M:%SZ")
           for file in serpinfo/*.yml; do
-            stat=$(git diff --numstat "$file")
-            if [[ $stat =~ ^1[[:space:]]+1[[:space:]] ]]; then
+            timestamp_line=$(grep -n -m1 "^lastModified: " "$file") || continue
+            diff_stat=$(git diff --numstat "$file")
+            if [[ $diff_stat =~ ^1[[:space:]]+1[[:space:]] ]]; then
               git restore "$file"
-            elif [[ -n $stat ]]; then
-              sed -i "0,/^lastModified: /s/^lastModified: .*/lastModified: $timestamp/" "$file"
+            else
+              sed -i "${timestamp_line%%:*}s/.*/lastModified: $timestamp/" "$file"
             fi
           done
 
