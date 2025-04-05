@@ -1,4 +1,8 @@
 name: Brave
+version: 0.0.0
+homepage: https://github.com/iorate/serpinfo#readme
+license: MIT
+lastModified: #@ timestamp
 
 pages:
   - name: Web
