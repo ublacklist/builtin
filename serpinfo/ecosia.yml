@@ -13,6 +13,7 @@ pages:
         url: a.result__link
         props:
           title: h2
+        button: [inset, { top: 0, right: 16px }]
     commonProps:
       $site: ecosia
       $category: web
