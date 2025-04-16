@@ -1,0 +1,58 @@
+name: Ecosia
+version: 0.0.0
+homepage: https://github.com/ublacklist/builtin#readme
+license: MIT
+lastModified: 1970-01-01T00:00:00Z
+
+pages:
+  - name: Web
+    matches:
+      - https://www.ecosia.org/search?*
+    results:
+      - root: .result
+        url: a.result__link
+        props:
+          title: h2
+    commonProps:
+      $site: ecosia
+      $category: web
+    delay: true
+
+  - name: Images
+    matches:
+      - https://www.ecosia.org/images?*
+    results:
+      - root: .image-result
+        url: a.image-result__details-link
+        props:
+          title: h2
+    commonProps:
+      $site: ecosia
+      $category: images
+    delay: true
+
+  - name: News
+    matches:
+      - https://www.ecosia.org/news?*
+    results:
+      - root: .result
+        url: a.result__link
+        props:
+          title: h2
+    commonProps:
+      $site: ecosia
+      $category: news
+    delay: true
+
+  - name: Videos
+    matches:
+      - https://www.ecosia.org/videos?*
+    results:
+      - root: .result
+        url: a.result__link
+        props:
+          title: h2
+    commonProps:
+      $site: ecosia
+      $category: videos
+    delay: true
