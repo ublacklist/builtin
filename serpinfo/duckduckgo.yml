@@ -1,0 +1,40 @@
+name: DuckDuckGo
+version: 0.0.0
+homepage: https://github.com/ublacklist/builtin#readme
+license: MIT
+lastModified: 2025-04-17T14:28:21Z
+
+pages:
+  - name: Default
+    matches:
+      - https://duckduckgo.com/
+      - https://duckduckgo.com/?*
+      - https://safe.duckduckgo.com/
+      - https://safe.duckduckgo.com/?*
+      - https://start.duckduckgo.com/
+      - https://start.duckduckgo.com/?*
+    results:
+      - root: [upward, 1, '[data-testid="web-vertical"] li > article']
+        url: h2 > a
+        props:
+          title: h2
+          $category: [string, web]
+        button: [inset, { top: 32px, right: 0 }]
+      - root: [upward, 1, '[data-testid="zci-images"] li > figure']
+        url: figcaption > a
+        props:
+          title: figcaption > a > p
+          $category: [string, images]
+      - root: [upward, 1, '[data-testid="news-vertical"] li > article']
+        url: article > a
+        props:
+          title: h2
+          $category: [string, news]
+      - root: [upward, 2, '[data-testid="zci-videos"] li > a > article']
+        url: a
+        props:
+          title: h2
+          $category: [string, videos]
+    commonProps:
+      $site: duckduckgo
+    delay: true
