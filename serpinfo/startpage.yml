@@ -1,0 +1,35 @@
+name: Startpage
+version: 0.0.0
+homepage: https://github.com/ublacklist/builtin#readme
+license: MIT
+lastModified: 1970-01-01T00:00:00Z
+
+pages:
+  - name: Default
+    matches:
+      - https://*.startpage.com/do/*
+      - https://*.startpage.com/rvd/*
+      - https://*.startpage.com/sp/*
+    results:
+      - root: .w-gl > .result
+        url: .result-link
+        props:
+          title: h2
+          $category: [string, web]
+      - root: .image-container
+        url: [domainToURL, ".image-quick-details > span"]
+        props:
+          title: .image-quick-details > div
+          $category: [string, images]
+      - root: .article
+        url: a
+        props:
+          title: h3
+          $category: [string, news]
+      - root: .vo-bg > .result
+        url: a
+        props:
+          title: h3
+          $category: [string, videos]
+    commonProps:
+      $site: startpage
