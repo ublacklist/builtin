@@ -27,6 +27,7 @@ pages:
         url: a.image-result__details-link
         props:
           title: h2
+        preserveSpace: true
     commonProps:
       $site: ecosia
       $category: images
