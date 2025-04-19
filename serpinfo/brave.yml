@@ -23,7 +23,7 @@ pages:
       - https://search.brave.com/images?*
     results:
       - root: .image-wrapper
-        url: [domainToURL, [property, textContent, .img-source]]
+        url: [domainToURL, ".img-source"]
         props:
           title: .img-title
     commonProps:
