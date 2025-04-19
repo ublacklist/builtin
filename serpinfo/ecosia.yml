@@ -2,7 +2,7 @@ name: Ecosia
 version: 0.0.0
 homepage: https://github.com/ublacklist/builtin#readme
 license: MIT
-lastModified: 2025-04-16T14:26:12Z
+lastModified: 2025-04-19T15:13:13Z
 
 pages:
   - name: Web
@@ -27,6 +27,7 @@ pages:
         url: a.image-result__details-link
         props:
           title: h2
+        preserveSpace: true
     commonProps:
       $site: ecosia
       $category: images
