@@ -28,6 +28,7 @@ pages:
         props:
           title: .sw-Thumbnail__title
         button: [inset, { top: 0, right: 0, zIndex: 4 }]
+        preserveSpace: true
     commonsProps:
       $site: yahooJapan
       $category: images
@@ -76,6 +77,10 @@ pages:
           - "targurl:([^;]+)"
           - "https://\\1"
           - [attribute, "data-cl-params", ".sw-EmbedListItem__wrapper"]
+        props:
+          title: h2
+      - root: .sw-ListItem
+        url: .sw-ListItem__wrapper
         props:
           title: h2
     commonProps:
