@@ -2,7 +2,7 @@ name: Brave
 version: 0.0.0
 homepage: https://github.com/ublacklist/builtin#readme
 license: MIT
-lastModified: 2025-04-16T14:09:13Z
+lastModified: 2025-04-19T03:47:00Z
 
 pages:
   - name: Web
@@ -23,7 +23,7 @@ pages:
       - https://search.brave.com/images?*
     results:
       - root: .image-wrapper
-        url: [domainToURL, [property, textContent, .img-source]]
+        url: [domainToURL, ".img-source"]
         props:
           title: .img-title
     commonProps:
