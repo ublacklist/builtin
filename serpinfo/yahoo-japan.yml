@@ -1,0 +1,84 @@
+name: Yahoo! JAPAN
+version: 0.0.0
+homepage: https://github.com/ublacklist/builtin#readme
+license: MIT
+lastModified: 2025-04-19T05:12:20Z
+
+pages:
+  - name: Web
+    matches:
+      - https://search.yahoo.co.jp/search?*
+    results:
+      - root: [upward, 1, ".sw-Card.Algo"]
+        url: a
+        props:
+          title: h3
+    commonProps:
+      $site: yahooJapan
+      $category: web
+    delay: true
+
+  - name: Images (desktop)
+    matches:
+      - https://search.yahoo.co.jp/image/search?*
+    userAgent: desktop
+    results:
+      - root: .sw-Thumbnail
+        url: .sw-Thumbnail__details
+        props:
+          title: .sw-Thumbnail__title
+        button: [inset, { top: 0, right: 0, zIndex: 4 }]
+    commonsProps:
+      $site: yahooJapan
+      $category: images
+    delay: true
+
+  - name: Images (mobile)
+    matches:
+      - https://search.yahoo.co.jp/image/search?*
+    userAgent: mobile
+    results:
+      - root: .sw-ThumbnailGrid__columnItem
+        url:
+          - regexSubstitute
+          - "targurl:([^;]+)"
+          - "https://\\1"
+          - [attribute, "data-cl-params", ".sw-ThumbnailGrid__details"]
+        props:
+          title: .sw-ThumbnailGrid__title
+    commonsProps:
+      $site: yahooJapan
+      $category: images
+    delay: true
+
+  - name: Videos (desktop)
+    matches:
+      - https://search.yahoo.co.jp/video/search?*
+    userAgent: desktop
+    results:
+      - root: .sw-CardBase
+        url: a
+        props:
+          title: h3
+    commonProps:
+      $site: yahooJapan
+      $category: videos
+    delay: true
+
+  - name: Videos (mobile)
+    matches:
+      - https://search.yahoo.co.jp/video/search?*
+    userAgent: mobile
+    results:
+      - root: .sw-EmbedListItem
+        url:
+          - regexSubstitute
+          - "targurl:([^;]+)"
+          - "https://\\1"
+          - [attribute, "data-cl-params", ".sw-EmbedListItem__wrapper"]
+        props:
+          title: h2
+    commonProps:
+      $site: yahooJapan
+      $category: videos
+    delay: true
