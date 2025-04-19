@@ -77,7 +77,7 @@ pages:
     userAgent: desktop
     results:
       - root: [upward, 1, ".mc_vtvc"]
-        url: .mc_vtvc_link
+        url: [attribute, "ourl", ".mc_vtvc_con_rc"]
         props:
           title: [attribute, "title", ".mc_vtvc_title"]
         button: [inset, { top: "32px", right: 0 }, ".mc_vtvc"]
@@ -91,7 +91,7 @@ pages:
     userAgent: mobile
     results:
       - root: [upward, 1, ".mc_vtvc"]
-        url: .mc_vtvc_link
+        url: [attribute, "ourl", ".mc_vtvc_con_rc"]
         props:
           title: [attribute, "title", ".mc_vtvc_title"]
     commonProps:
