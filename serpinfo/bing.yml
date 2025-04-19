@@ -2,7 +2,7 @@ name: Bing
 version: 0.0.0
 homepage: https://github.com/ublacklist/builtin#readme
 license: MIT
-lastModified: 2025-04-19T09:02:37Z
+lastModified: 2025-04-19T09:14:32Z
 
 pages:
   - name: Web (desktop)
@@ -13,7 +13,7 @@ pages:
       - root: .b_algo
         url:
           - or
-          - - - regexExclude,
+          - - - regexExclude
               - "^https:\\/\\/www\\.bing\\.com/ck/"
               - [property, "href", "h2 > a"]
             - [domainToURL, ".b_attribution"]
