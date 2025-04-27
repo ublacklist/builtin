@@ -11,10 +11,16 @@ pages:
     excludeRegex: "[?&](udm=(?!14(&|$))|tbm=)"
     userAgent: desktop
     results:
-      - root: .vt6azd:not(.g-blk)
+      - name: Default
+        root: .vt6azd:not(.g-blk)
         url: :is(.yuRUbf, .xe8e1b) a
         props:
           title: h3
+      - name: Videos
+        root: .sHEJob
+        url: a[href^="http"]
+        props:
+          title: .OSrXXb
     commonProps:
       $site: google
       $category: web
@@ -67,11 +73,17 @@ pages:
     excludeRegex: "[?&](udm=(?!14(&|$))|tbm=)"
     userAgent: mobile
     results:
-      - root: .vt6azd
+      - name: Default
+        root: .vt6azd
         url: a[role="presentation"]
         props:
           title: '[role="heading"][aria-level="3"]'
         button: [inset, { top: "16px", right: "32px" }]
+      - name: Videos
+        root: .sHEJob
+        url: a[href^="http"]
+        props:
+          title: .OSrXXb
     commonProps:
       $site: google
       $category: web
