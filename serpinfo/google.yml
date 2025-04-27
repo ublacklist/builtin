@@ -71,7 +71,7 @@ pages:
         url: a[role="presentation"]
         props:
           title: '[role="heading"][aria-level="3"]'
-        button: [inset, { top: "12px", right: "24px" }]
+        button: [inset, { top: "16px", right: "32px" }]
     commonProps:
       $site: google
       $category: web

@@ -49,7 +49,7 @@ pages:
           - [attribute, "m", ".iusc"]
         props:
           title: [attribute, "title", "li > a"]
-        button: [inset, { top: "32px", right: 0 }, ".iuscp"]
+        button: [inset, { top: "4px", right: "36px" }, ".iuscp"]
     commonProps:
       $site: bing
       $category: images
@@ -80,7 +80,7 @@ pages:
         url: [attribute, "ourl", ".mc_vtvc_con_rc"]
         props:
           title: [attribute, "title", ".mc_vtvc_title"]
-        button: [inset, { top: "32px", right: 0 }, ".mc_vtvc"]
+        button: [inset, { top: "4px", right: "36px" }, ".mc_vtvc"]
     commonProps:
       $site: bing
       $category: videos
