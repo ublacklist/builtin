@@ -2,7 +2,7 @@ name: DuckDuckGo
 version: 0.0.0
 homepage: https://github.com/ublacklist/builtin#readme
 license: MIT
-lastModified: 2025-04-19T03:47:00Z
+lastModified: 2025-04-27T05:22:48Z
 
 pages:
   - name: Default
@@ -13,28 +13,49 @@ pages:
       - https://safe.duckduckgo.com/?*
       - https://start.duckduckgo.com/
       - https://start.duckduckgo.com/?*
+    delay: true
+    commonProps:
+      $site: duckduckgo
     results:
-      - root: [upward, 1, '[data-testid="web-vertical"] li > article']
+      - name: Web (desktop)
+        root:
+          - upward
+          - 1
+          - ':root:not(.is-mobile) [data-testid="web-vertical"] li > article'
         url: h2 > a
         props:
           title: h2
           $category: [const, "web"]
-        button: [inset, { top: 32px, right: 0 }]
-      - root: [upward, 1, '[data-testid="zci-images"] li > figure']
+        button: [inset, { top: "5.4px", right: "36px" }, "article"]
+
+      - name: Web (mobile)
+        root:
+          - upward
+          - 1
+          - ':root.is-mobile [data-testid="web-vertical"] li > article'
+        url: h2 > a
+        props:
+          title: h2
+          $category: [const, "web"]
+        button: [inset, { top: "10px", right: "36px" }, "article"]
+
+      - name: Images
+        root: [upward, 1, '[data-testid="zci-images"] li > figure']
         url: figcaption > a
         props:
           title: figcaption > a > p
           $category: [const, "images"]
-      - root: [upward, 1, '[data-testid="news-vertical"] li > article']
-        url: article > a
-        props:
-          title: h2
-          $category: [const, "news"]
-      - root: [upward, 2, '[data-testid="zci-videos"] li > a > article']
+
+      - name: Videos
+        root: [upward, 2, '[data-testid="zci-videos"] li > a > article']
         url: a
         props:
           title: h2
           $category: [const, "videos"]
-    commonProps:
-      $site: duckduckgo
-    delay: true
+
+      - name: News
+        root: [upward, 1, '[data-testid="news-vertical"] li > article']
+        url: article > a
+        props:
+          title: h2
+          $category: [const, "news"]

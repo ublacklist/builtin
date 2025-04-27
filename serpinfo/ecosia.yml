@@ -2,7 +2,7 @@ name: Ecosia
 version: 0.0.0
 homepage: https://github.com/ublacklist/builtin#readme
 license: MIT
-lastModified: 2025-04-19T15:13:13Z
+lastModified: 2025-04-27T05:22:48Z
 
 pages:
   - name: Web
@@ -13,7 +13,7 @@ pages:
         url: a.result__link
         props:
           title: h2
-        button: [inset, { top: 0, right: 16px }]
+        button: [inset, { top: "4px", right: "20px" }]
     commonProps:
       $site: ecosia
       $category: web
