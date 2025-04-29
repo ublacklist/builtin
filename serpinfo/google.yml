@@ -14,6 +14,11 @@ pages:
         url: :is(.yuRUbf, .xe8e1b) a
         props:
           title: h3
+      - name: Images
+        root: .vCUuC
+        url: a
+        props:
+          title: .Yt787
       - name: Videos
         root: .sHEJob
         url: a[href^="http"]
@@ -77,6 +82,12 @@ pages:
         props:
           title: '[role="heading"][aria-level="3"]'
         button: [inset, { top: "16px", right: "32px" }]
+      - name: Images
+        root: .DyfMyc
+        url: a
+        props:
+          title: .Yt787
+        preserveSpace: true
       - name: Videos
         root: .sHEJob
         url: a[href^="http"]
