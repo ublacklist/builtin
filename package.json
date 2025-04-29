@@ -1,5 +1,5 @@
 {
-  "name": "serpinfo",
+  "name": "@ublacklist/builtin",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
@@ -10,13 +10,8 @@
     "fix": "prettier --write ."
   },
   "devDependencies": {
-    "lefthook": "^1.11.3",
+    "lefthook": "^1.11.12",
     "prettier": "^3.5.3"
   },
-  "packageManager": "pnpm@10.6.2",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "lefthook"
-    ]
-  }
+  "packageManager": "pnpm@10.10.0"
 }
