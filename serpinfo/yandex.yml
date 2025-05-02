@@ -1,0 +1,73 @@
+name: Yandex
+homepage: https://github.com/ublacklist/builtin#readme
+lastModified: 2025-05-02T04:08:02Z
+
+pages:
+  - name: Web (desktop)
+    matches: &matches
+      - https://yandex.com/*
+      - https://yandex.com.am/*
+      - https://yandex.az/*
+      - https://yandex.by/*
+      - https://yandex.ee/*
+      - https://yandex.eu/*
+      - https://yandex.com.ge/*
+      - https://yandex.co.il/*
+      - https://yandex.kz/*
+      - https://yandex.lt/*
+      - https://yandex.lv/*
+      - https://yandex.md/*
+      - https://yandex.ru/*
+      - https://yandex.tj/*
+      - https://yandex.tm/*
+      - https://yandex.com.tr/*
+      - https://yandex.uz/*
+      - https://ya.ru/*
+    includeRegex: "^https://[^/]+/search/?\\?"
+    results:
+      - root: .serp-item
+        url: a
+        props:
+          title: h2
+        button: [inset, { top: "4px", right: "24px", zIndex: 10 }]
+    commonProps:
+      $site: yandex
+      $category: web
+
+  - name: Web (mobile)
+    matches: *matches
+    includeRegex: "^https://[^/]+/search/touch/?\\?"
+    results:
+      - root: .serp-item
+        url: a
+        props:
+          title: h2
+        button: [inset, { top: "8px", right: "24px" }]
+    commonProps:
+      $site: yandex
+      $category: web
+
+  - name: Videos (desktop)
+    matches: *matches
+    includeRegex: "^https://[^/]+/video/search/?\\?"
+    results:
+      - root: .SearchBlock
+        url: .VideoHostExtended-Host
+        props:
+          title: .VideoSnippet-Title
+        button: [inset, { top: "3px", right: "24px" }]
+    commonProps:
+      $site: yandex
+      $category: videos
+
+  - name: Videos (mobile)
+    matches: *matches
+    includeRegex: "^https://[^/]+/video/touch/search/?\\?"
+    results:
+      - root: .SearchBlock
+        url: .VideoHostExtended-Host
+        props:
+          title: .VideoSnippet-Title
+    commonProps:
+      $site: yandex
+      $category: videos

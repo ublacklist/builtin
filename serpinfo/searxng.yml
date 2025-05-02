@@ -1,0 +1,110 @@
+name: SearXNG
+homepage: https://github.com/ublacklist/builtin#readme
+lastModified: 2025-05-02T04:08:02Z
+
+pages:
+  - name: All
+    includeRegex: "/search(\\?|$)"
+    results:
+      - root: .category-general
+        url: a
+        props:
+          title: h3
+          $category: [const, "web"]
+      - root: .category-images
+        url: .result-url > a
+        props:
+          title: .title
+          $category: [const, "images"]
+      - root: .category-videos
+        url: a
+        props:
+          title: h3
+          $category: [const, "videos"]
+      - root: .category-news
+        url: a
+        props:
+          title: h3
+          $cateogry: [const, "news"]
+    commonProps:
+      $site: searx # backwards compatibility
+    matches:
+      # https://github.com/searxng/searx-instances/blob/54135f280e613540604e11ed577c09d31ff71b20/searxinstances/instances.yml
+      - https://baresearch.org/*
+      - https://copp.gg/*
+      - https://darmarit.org/searx/*
+      - https://etsi.me/*
+      - https://fairsuch.net/*
+      - https://kantan.cat/*
+      - https://metacat.online/*
+      - https://nogoo.me/*
+      - https://northboot.xyz/*
+      - https://nyc1.sx.ggtyler.dev/*
+      - https://ooglester.com/*
+      - https://opnxng.com/*
+      - https://paulgo.io/*
+      - https://priv.au/*
+      - https://s.datuan.dev/*
+      - https://s.mble.dk/*
+      - https://search.080609.xyz/*
+      - https://search.canine.tools/*
+      - https://search.catboy.house/*
+      - https://search.citw.lgbt/*
+      - https://search.cloakpanda.com/*
+      - https://search.einfachzocken.eu/*
+      - https://search.fredix.xyz/*
+      - https://search.gcomm.ch/*
+      - https://search.hbubli.cc/*
+      - https://search.im-in.space/*
+      - https://search.indst.eu/*
+      - https://search.inetol.net/*
+      - https://search.ipv6s.net/*
+      - https://search.leptons.xyz/*
+      - https://search.librenode.com/*
+      - https://search.mdosch.de/*
+      - https://search.mrblake.cc/*
+      - https://search.nerdvpn.de/*
+      - https://search.nordh.tech/*
+      - https://search.ohaa.xyz/*
+      - https://search.ononoki.org/*
+      - https://search.privacyredirect.com/*
+      - https://search.projectsegfau.lt/*
+      - https://search.rhscz.eu/*
+      - https://search.rowie.at/*
+      - https://search.sapti.me/*
+      - https://search.url4irl.com/*
+      - https://searx.ankha.ac/*
+      - https://searx.be/*
+      - https://searx.dresden.network/*
+      - https://searx.foobar.vip/*
+      - https://searx.foss.family/*
+      - https://searx.juancord.xyz/*
+      - https://searx.lunar.icu/*
+      - https://searx.mbuf.net/*
+      - https://searx.mxchange.org/*
+      - https://searx.namejeff.xyz/*
+      - https://searx.oakleycord.dev/*
+      - https://searx.oloke.xyz/*
+      - https://searx.ox2.fr/*
+      - https://searx.party/*
+      - https://searx.perennialte.ch/*
+      - https://searx.rhscz.eu/*
+      - https://searx.ro/*
+      - https://searx.sev.monster/*
+      - https://searx.thefloatinglab.world/*
+      - https://searx.tiekoetter.com/*
+      - https://searx.tuxcloud.net/*
+      - https://searx.zhenyapav.com/*
+      - https://searxng.biz/*
+      - https://searxng.brihx.fr/*
+      - https://searxng.deliberate.world/*
+      - https://searxng.f24o.zip/*
+      - https://searxng.hweeren.com/*
+      - https://searxng.shreven.org/*
+      - https://searxng.site/*
+      - https://searxng.website/*
+      - https://searxng.world/*
+      - https://seek.fyi/*
+      - https://suche.dasnetzundich.de/*
+      - https://sx.catgirl.cloud/*
+      - https://www.gruble.de/*
