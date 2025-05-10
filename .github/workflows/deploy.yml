@@ -1,20 +1,16 @@
 name: Deploy
-
 on:
   push:
     branches:
       - main
-
+  workflow_dispatch: {}
 permissions: {}
-
 defaults:
   run:
     shell: bash
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     permissions:
       contents: write
     steps:
