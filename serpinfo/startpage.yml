@@ -13,21 +13,21 @@ pages:
         url: .result-link
         props:
           title: h2
-          $category: [const, "web"]
+          # $category: [const, "web"]
       - root: .image-container
         url: [domainToURL, ".image-quick-details > span"]
         props:
           title: .image-quick-details > div
-          $category: [const, "images"]
+          # $category: [const, "images"]
       - root: .article
         url: a
         props:
           title: h3
-          $category: [const, "news"]
+          # $category: [const, "news"]
       - root: .vo-bg > .result
         url: a
         props:
           title: h3
-          $category: [const, "videos"]
+          # $category: [const, "videos"]
     commonProps:
       $site: startpage
