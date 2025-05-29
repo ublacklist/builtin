@@ -1,6 +1,6 @@
 name: DuckDuckGo
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-05-14T00:06:03Z
+lastModified: 2025-05-29T14:29:25Z
 
 pages:
   - name: Default
@@ -23,7 +23,7 @@ pages:
         url: h2 > a
         props:
           title: h2
-          # $category: [const, "web"]
+          $category: [const, "web"]
         button: [inset, { top: "5.4px", right: "36px" }, "article"]
 
       - name: Web (mobile)
@@ -34,7 +34,7 @@ pages:
         url: h2 > a
         props:
           title: h2
-          # $category: [const, "web"]
+          $category: [const, "web"]
         button: [inset, { top: "10px", right: "36px" }, "article"]
 
       - name: Images
@@ -42,18 +42,18 @@ pages:
         url: figcaption > a
         props:
           title: figcaption > a > p
-          # $category: [const, "images"]
+          $category: [const, "images"]
 
       - name: Videos
         root: [upward, 2, '[data-testid="zci-videos"] li > a > article']
         url: a
         props:
           title: h2
-          # $category: [const, "videos"]
+          $category: [const, "videos"]
 
       - name: News
         root: [upward, 1, '[data-testid="news-vertical"] li > article']
         url: article > a
         props:
           title: h2
-          # $category: [const, "news"]
+          $category: [const, "news"]
