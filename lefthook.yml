@@ -1,6 +1,5 @@
 pre-commit:
   commands:
     check:
-      glob: "*.{yml,yaml,md,markdown}"
-      run: pnpm prettier --write {staged_files}
+      run: pnpm prettier --write --ignore-unknown {staged_files}
       stage_fixed: true
