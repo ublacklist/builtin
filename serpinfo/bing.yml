@@ -1,11 +1,12 @@
 name: Bing
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-04-29T09:49:28Z
+lastModified: 2025-06-14T14:02:53Z
 
 pages:
   - name: Web (desktop)
     matches:
       - https://www.bing.com/search?*
+      - https://cn.bing.com/search?*
     userAgent: desktop
     results:
       - root: .b_algo
@@ -24,6 +25,7 @@ pages:
   - name: Web (mobile)
     matches:
       - https://www.bing.com/search?*
+      - https://cn.bing.com/search?*
     userAgent: mobile
     results:
       - root: .b_algo
@@ -37,6 +39,7 @@ pages:
   - name: Images (desktop)
     matches:
       - https://www.bing.com/images/search?*
+      - https://cn.bing.com/images/search?*
     userAgent: desktop
     results:
       - root: [upward, 1, ".iuscp"]
@@ -55,6 +58,7 @@ pages:
   - name: Images (mobile)
     matches:
       - https://www.bing.com/images/search?*
+      - https://cn.bing.com/images/search?*
     userAgent: mobile
     results:
       - root: [upward, 1, ".iuscp"]
@@ -72,6 +76,7 @@ pages:
   - name: Videos (desktop)
     matches:
       - https://www.bing.com/videos/search?*
+      - https://cn.bing.com/videos/search?*
     userAgent: desktop
     results:
       - root: [upward, 1, ".mc_vtvc"]
@@ -86,6 +91,7 @@ pages:
   - name: Videos (mobile)
     matches:
       - https://www.bing.com/videos/search?*
+      - https://cn.bing.com/videos/search?*
     userAgent: mobile
     results:
       - root: [upward, 1, ".mc_vtvc"]
@@ -99,6 +105,7 @@ pages:
   - name: News (desktop)
     matches:
       - https://www.bing.com/news/search?*
+      - https://cn.bing.com/news/search?*
     userAgent: desktop
     results:
       - root: .news-card
@@ -112,6 +119,7 @@ pages:
   - name: News (mobile)
     matches:
       - https://www.bing.com/news/search?*
+      - https://cn.bing.com/news/search?*
     userAgent: mobile
     results:
       - root: .newscard
