@@ -25,7 +25,7 @@ pages:
       - https://ya.ru/*
     includeRegex: "^https://[^/]+/search/?\\?"
     results:
-      - root: .serp-item
+      - root: [upward, 1, ".Organic"]
         url: a
         props:
           title: h2
@@ -38,7 +38,7 @@ pages:
     matches: *matches
     includeRegex: "^https://[^/]+/search/touch/?\\?"
     results:
-      - root: .serp-item
+      - root: [upward, 1, ".Organic"]
         url: a
         props:
           title: h2
