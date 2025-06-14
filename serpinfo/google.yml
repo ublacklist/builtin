@@ -210,6 +210,16 @@ pages:
         url: a[href^="http"]
         props:
           title: .OSrXXb
+      - name: News
+        root: "[data-news-cluster-id]"
+        url: a
+        props:
+          title: '[role="heading"][aria-level="3"]'
+      - name: X
+        root: .eejeod
+        url: a
+        props:
+          title: h3
     commonProps:
       $site: google
       $category: web
@@ -245,8 +255,8 @@ pages:
     includeRegex: "[?&]tbm=nws(&|$)"
     userAgent: desktop
     results:
-      - root: .SoaBEf
-        url: .WlydOe
+      - root: "[data-news-cluster-id]"
+        url: a
         props:
           title: '[role="heading"][aria-level="3"]'
     commonProps:
@@ -275,6 +285,11 @@ pages:
         url: a[href^="http"]
         props:
           title: .OSrXXb
+      - name: News
+        root: [upward, ".kno-fb-ctx", "[data-news-cluster-id]"]
+        url: a
+        props:
+          title: .pontCc
     commonProps:
       $site: google
       $category: web
@@ -310,8 +325,8 @@ pages:
     includeRegex: "[?&]tbm=nws(&|$)"
     userAgent: mobile
     results:
-      - root: .Ww4FFb
-        url: .WlydOe
+      - root: "[data-news-cluster-id]"
+        url: a
         props:
           title: '[role="heading"][aria-level="3"]'
     commonProps:
