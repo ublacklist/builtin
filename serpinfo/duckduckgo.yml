@@ -11,6 +11,8 @@ pages:
       - https://safe.duckduckgo.com/?*
       - https://start.duckduckgo.com/
       - https://start.duckduckgo.com/?*
+      - https://noai.duckduckgo.com/
+      - https://noai.duckduckgo.com/?*
     delay: true
     commonProps:
       $site: duckduckgo
