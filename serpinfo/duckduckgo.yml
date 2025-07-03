@@ -1,6 +1,6 @@
 name: DuckDuckGo
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-05-29T14:29:25Z
+lastModified: 2025-07-03T11:36:50Z
 
 pages:
   - name: Default
@@ -11,6 +11,8 @@ pages:
       - https://safe.duckduckgo.com/?*
       - https://start.duckduckgo.com/
       - https://start.duckduckgo.com/?*
+      - https://noai.duckduckgo.com/
+      - https://noai.duckduckgo.com/?*
     delay: true
     commonProps:
       $site: duckduckgo
