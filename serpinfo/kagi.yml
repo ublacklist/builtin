@@ -1,0 +1,68 @@
+name: Kagi
+homepage: https://github.com/ublacklist/builtin#readme
+lastModified: 1970-01-01T00:00:00Z
+
+pages:
+  - name: All
+    matches:
+      - https://kagi.com/search?*
+    results:
+      - root: ._ext_ub_r
+        url: ._ext_ub_u
+        props:
+          title: ._ext_ub_t
+        button: [inset, { top: 0, right: 0 }, "._ext_ub_b"]
+    commonProps:
+      $site: kagi
+      $category: all
+    delay: 400
+  - name: Images
+    matches:
+      - https://kagi.com/images?*
+    results:
+      - root: ._ext_ub_r
+        url: ._ext_ub_u
+        props:
+          title: ._ext_ub_t
+    commonProps:
+      $site: kagi
+      $category: images
+    delay: 400
+  - name: Videos
+    matches:
+      - https://kagi.com/videos?*
+    results:
+      - root: ._ext_ub_r
+        url: ._ext_ub_u
+        props:
+          title: ._ext_ub_t
+        button: [inset, { top: 0, right: 0 }, "._ext_ub_b"]
+    commonProps:
+      $site: kagi
+      $category: videos
+    delay: 400
+  - name: News
+    matches:
+      - https://kagi.com/news?*
+    results:
+      - root: ._ext_ub_r
+        url: ._ext_ub_u
+        props:
+          title: ._ext_ub_t
+        button: [inset, { top: 0, right: 0 }, "._ext_ub_b"]
+    commonProps:
+      $site: kagi
+      $category: news
+    delay: 400
+  - name: Podcasts
+    matches:
+      - https://kagi.com/podcasts?*
+    results:
+      - root: ._ext_ub_r
+        url: ._ext_ub_u
+        props:
+          title: ._ext_ub_t
+    commonProps:
+      $site: kagi
+      $category: podcasts
+    delay: 400
