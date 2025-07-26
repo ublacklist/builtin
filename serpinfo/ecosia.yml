@@ -1,6 +1,6 @@
 name: Ecosia
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-04-29T09:49:28Z
+lastModified: 2025-07-26T12:15:58Z
 
 pages:
   - name: Web
@@ -25,6 +25,7 @@ pages:
         url: a.image-result__details-link
         props:
           title: h2
+        button: [inset, { top: 0, right: 0 }, ".image-result__link-wrapper"]
         preserveSpace: true
     commonProps:
       $site: ecosia
