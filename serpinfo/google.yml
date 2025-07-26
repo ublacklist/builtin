@@ -1,6 +1,6 @@
 name: Google
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-06-14T11:43:02Z
+lastModified: 2025-07-26T14:46:06Z
 
 pages:
   - name: Web (desktop)
@@ -192,7 +192,7 @@ pages:
       - https://www.google.co.zm/search?*
       - https://www.google.co.zw/search?*
       - https://www.google.cat/search?*
-    excludeRegex: "[?&](udm=(?!14(&|$))|tbm=)"
+    excludeRegex: "[?&](udm=(?!14(&|$))|tbm=(?!&|$))"
     userAgent: desktop
     results:
       - name: Default
@@ -265,7 +265,7 @@ pages:
 
   - name: Web (mobile)
     matches: *matches
-    excludeRegex: "[?&](udm=(?!14(&|$))|tbm=)"
+    excludeRegex: "[?&](udm=(?!14(&|$))|tbm=(?!&|$))"
     userAgent: mobile
     results:
       - name: Default
