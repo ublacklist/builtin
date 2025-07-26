@@ -30,10 +30,5 @@ jobs:
         run: pnpm install
 
       - name: Check by Prettier
-        # Prettier exits with 2 if there is a syntax error.
-        run: |
-          if pnpm prettier --check .; then
-            :
-          elif (( $? == 2 )); then
-            exit 1
-          fi
+        # Allow formatting issues (exit code 1) but fail on syntax errors (exit code 2).
+        run: pnpm prettier --check . || (( $? == 1 ))
