@@ -2,8 +2,6 @@
   "name": "@ublacklist/builtin",
   "version": "1.0.0",
   "private": true,
-  "license": "MIT",
-  "author": "iorate",
   "type": "module",
   "scripts": {
     "check": "prettier --check .",
