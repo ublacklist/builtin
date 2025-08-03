@@ -1,6 +1,6 @@
 name: DuckDuckGo
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-08-03T07:12:14Z
+lastModified: 2025-08-03T07:36:45Z
 
 pages:
   - name: Default
@@ -40,8 +40,15 @@ pages:
         button: [inset, { top: "10px", right: "36px" }, "article"]
 
       - name: Web > Images
-        root: "li.pmq91M1H9uYaJG_lxmPg"
+        root: [upward, 2, '[data-layout="images"] li > a > img']
         url: figcaption > a
+        props:
+          title: h3
+          $category: [const, "web"]
+
+      - name: Web > Videos
+        root: [upward, 2, '[data-layout="videos"] li > a > article']
+        url: a
         props:
           title: h3
           $category: [const, "web"]
