@@ -20,10 +20,10 @@ pages:
     matches:
       - https://search.brave.com/images?*
     results:
-      - root: .image-wrapper
-        url: [domainToURL, ".img-source"]
+      - root: .image-result
+        url: [domainToURL, ".image-metadata-source"]
         props:
-          title: .img-title
+          title: .image-metadata-title
     commonProps:
       $site: brave
       $category: images
