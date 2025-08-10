@@ -1,6 +1,6 @@
 name: Brave
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-04-29T09:49:28Z
+lastModified: 2025-08-10T05:16:20Z
 
 pages:
   - name: Web
@@ -20,10 +20,10 @@ pages:
     matches:
       - https://search.brave.com/images?*
     results:
-      - root: .image-wrapper
-        url: [domainToURL, ".img-source"]
+      - root: .image-result
+        url: [domainToURL, ".image-metadata-source"]
         props:
-          title: .img-title
+          title: .image-metadata-title
     commonProps:
       $site: brave
       $category: images
