@@ -51,7 +51,7 @@ pages:
     matches: *matches
     includeRegex: "^https://[^/]+/video/search/?\\?"
     results:
-      - root: .SearchBlock
+      - root: .VideoSnippetSerpFeature
         url: .VideoHostExtended-Host
         props:
           title: .VideoSnippet-Title
@@ -64,7 +64,7 @@ pages:
     matches: *matches
     includeRegex: "^https://[^/]+/video/touch/search/?\\?"
     results:
-      - root: .SearchBlock
+      - root: .VideoSnippetSerpFeature
         url: .VideoHostExtended-Host
         props:
           title: .VideoSnippet-Title
