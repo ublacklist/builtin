@@ -1,0 +1,37 @@
+name: Update SearXNG Instances
+
+on:
+  schedule:
+    - cron: "0 15 * * 5"
+  workflow_dispatch: {}
+
+permissions: {}
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  update-searxng-instances:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Setup
+        uses: ./.github/actions/setup
+
+      - name: Update SearXNG instances
+        run: pnpm update-searxng-instances
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
+        with:
+          commit-message: "searxng: update instances"
+          branch: update-searxng-instances
+          title: Update SearXNG instances

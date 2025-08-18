@@ -1,5 +1,10 @@
 pre-commit:
+  parallel: true
   commands:
-    check:
-      run: pnpm prettier --write --ignore-unknown {staged_files}
+    biome:
+      run: pnpm biome check --write --files-ignore-unknown=true --no-errors-on-unmatched {staged_files}
+      stage_fixed: true
+    prettier:
+      glob: "*.{md,yaml,yml}"
+      run: pnpm prettier --write {staged_files}
       stage_fixed: true
