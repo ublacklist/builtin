@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-08-18T14:24:07Z
+lastModified: 2025-08-18T14:29:21Z
 
 pages:
   - name: All
@@ -35,36 +35,36 @@ pages:
       - https://darmarit.org/searx/*
       - https://etsi.me/*
       - https://fairsuch.net/*
+      - https://find.xenorio.xyz/*
       - https://kantan.cat/*
       - https://metacat.online/*
-      - https://nogoo.me/*
       - https://northboot.xyz/*
       - https://nyc1.sx.ggtyler.dev/*
       - https://ooglester.com/*
       - https://opnxng.com/*
       - https://paulgo.io/*
       - https://priv.au/*
-      - https://s.datuan.dev/*
       - https://s.mble.dk/*
       - https://search.080609.xyz/*
+      - https://search.2b9t.xyz/*
+      - https://search.ashisgreat.xyz/*
+      - https://search.buddyverse.net/*
       - https://search.canine.tools/*
       - https://search.catboy.house/*
+      - https://search.charliewhiskey.net/*
       - https://search.citw.lgbt/*
-      - https://search.cloakpanda.com/*
       - https://search.einfachzocken.eu/*
-      - https://search.fredix.xyz/*
-      - https://search.gcomm.ch/*
+      - https://search.goober.cloud/*
       - https://search.hbubli.cc/*
       - https://search.im-in.space/*
       - https://search.indst.eu/*
       - https://search.inetol.net/*
+      - https://search.ipsys.bf/*
       - https://search.ipv6s.net/*
       - https://search.leptons.xyz/*
-      - https://search.librenode.com/*
       - https://search.mdosch.de/*
-      - https://search.mrblake.cc/*
       - https://search.nerdvpn.de/*
-      - https://search.nordh.tech/*
+      - https://search.oh64.moe/*
       - https://search.ohaa.xyz/*
       - https://search.ononoki.org/*
       - https://search.privacyredirect.com/*
@@ -72,9 +72,9 @@ pages:
       - https://search.rhscz.eu/*
       - https://search.rowie.at/*
       - https://search.sapti.me/*
+      - https://search.system51.co.uk/*
       - https://search.url4irl.com/*
       - https://searx.ankha.ac/*
-      - https://searx.be/*
       - https://searx.dresden.network/*
       - https://searx.foobar.vip/*
       - https://searx.foss.family/*
@@ -83,28 +83,25 @@ pages:
       - https://searx.mbuf.net/*
       - https://searx.mxchange.org/*
       - https://searx.namejeff.xyz/*
-      - https://searx.oakleycord.dev/*
       - https://searx.oloke.xyz/*
       - https://searx.ox2.fr/*
       - https://searx.party/*
       - https://searx.perennialte.ch/*
+      - https://searx.ppeb.me/*
       - https://searx.rhscz.eu/*
       - https://searx.ro/*
       - https://searx.sev.monster/*
-      - https://searx.thefloatinglab.world/*
+      - https://searx.stream/*
       - https://searx.tiekoetter.com/*
       - https://searx.tuxcloud.net/*
       - https://searx.zhenyapav.com/*
       - https://searxng.biz/*
-      - https://searxng.brihx.fr/*
       - https://searxng.deliberate.world/*
       - https://searxng.f24o.zip/*
       - https://searxng.hweeren.com/*
       - https://searxng.shreven.org/*
       - https://searxng.site/*
       - https://searxng.website/*
-      - https://searxng.world/*
       - https://seek.fyi/*
-      - https://suche.dasnetzundich.de/*
       - https://sx.catgirl.cloud/*
       - https://www.gruble.de/*
