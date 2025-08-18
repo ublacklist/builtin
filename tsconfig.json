@@ -1,0 +1,29 @@
+{
+  "include": ["scripts"],
+
+  "compilerOptions": {
+    // Type Checking
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+
+    // Modules
+    "allowImportingTsExtensions": true,
+    "module": "node20",
+
+    // Emit
+    "noEmit": true,
+
+    // Interop Constraints
+    "erasableSyntaxOnly": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    // Language and Environment
+    "lib": ["esnext"],
+    "target": "esnext",
+
+    // Completeness
+    "skipLibCheck": true
+  }
+}

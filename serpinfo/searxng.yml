@@ -29,7 +29,7 @@ pages:
     commonProps:
       $site: searx # backwards compatibility
     matches:
-      # https://github.com/searxng/searx-instances/blob/54135f280e613540604e11ed577c09d31ff71b20/searxinstances/instances.yml
+      # DO NOT EDIT: The instance list is periodically retrieved from [searxng/searx-instances](https://github.com/searxng/searx-instances).
       - https://baresearch.org/*
       - https://copp.gg/*
       - https://darmarit.org/searx/*

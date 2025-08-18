@@ -1,4 +1,4 @@
 onlyBuiltDependencies:
   - lefthook
 
-useNodeVersion: 24.4.1
+useNodeVersion: 24.6.0
