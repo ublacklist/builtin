@@ -25,7 +25,7 @@ pages:
         url: a
         props:
           title: h3
-          $cateogry: [const, "news"]
+          $category: [const, "news"]
     commonProps:
       $site: searx # backwards compatibility
     matches:
