@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-08-18T14:29:21Z
+lastModified: 2025-08-18T14:33:22Z
 
 pages:
   - name: All
@@ -25,7 +25,7 @@ pages:
         url: a
         props:
           title: h3
-          $cateogry: [const, "news"]
+          $category: [const, "news"]
     commonProps:
       $site: searx # backwards compatibility
     matches:
