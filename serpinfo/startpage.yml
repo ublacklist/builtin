@@ -1,6 +1,6 @@
 name: Startpage
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-05-29T14:29:25Z
+lastModified: 2025-08-28T11:41:30Z
 
 pages:
   - name: Default
@@ -9,7 +9,7 @@ pages:
       - https://*.startpage.com/rvd/*
       - https://*.startpage.com/sp/*
     results:
-      - root: .w-gl > .result
+      - root: :is(.w-gl, .w-bg) > .result
         url: .result-link
         props:
           title: h2
