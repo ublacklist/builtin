@@ -9,7 +9,7 @@ pages:
       - https://*.startpage.com/rvd/*
       - https://*.startpage.com/sp/*
     results:
-      - root: .w-gl > .result
+      - root: :is(.w-gl, .w-bg) > .result
         url: .result-link
         props:
           title: h2
