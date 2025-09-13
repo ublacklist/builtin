@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-09-07T06:57:00Z
+lastModified: 2025-09-13T01:42:49Z
 
 pages:
   - name: All
@@ -47,6 +47,7 @@ pages:
       - https://s.mble.dk/*
       - https://search.080609.xyz/*
       - https://search.2b9t.xyz/*
+      - https://search.anoni.net/*
       - https://search.ashisgreat.xyz/*
       - https://search.bladerunn.in/*
       - https://search.buddyverse.net/*
@@ -54,7 +55,9 @@ pages:
       - https://search.catboy.house/*
       - https://search.charliewhiskey.net/*
       - https://search.einfachzocken.eu/*
+      - https://search.ethibox.fr/*
       - https://search.hbubli.cc/*
+      - https://search.iguru.gr/*
       - https://search.im-in.space/*
       - https://search.indst.eu/*
       - https://search.inetol.net/*
@@ -67,6 +70,7 @@ pages:
       - https://search.oh64.moe/*
       - https://search.ohaa.xyz/*
       - https://search.ononoki.org/*
+      - https://search.perditum.com/*
       - https://search.privacyredirect.com/*
       - https://search.projectsegfau.lt/*
       - https://search.rhscz.eu/*
