@@ -1,11 +1,13 @@
 name: Bing
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-06-14T14:02:53Z
+lastModified: 2025-10-19T12:42:52Z
 
 pages:
   - name: Web (desktop)
     matches:
       - https://www.bing.com/search?*
+      - https://www2.bing.com/search?*
+      - https://www4.bing.com/search?*
       - https://cn.bing.com/search?*
     userAgent: desktop
     results:
@@ -25,6 +27,8 @@ pages:
   - name: Web (mobile)
     matches:
       - https://www.bing.com/search?*
+      - https://www2.bing.com/search?*
+      - https://www4.bing.com/search?*
       - https://cn.bing.com/search?*
     userAgent: mobile
     results:
@@ -39,6 +43,8 @@ pages:
   - name: Images (desktop)
     matches:
       - https://www.bing.com/images/search?*
+      - https://www2.bing.com/images/search?*
+      - https://www4.bing.com/images/search?*
       - https://cn.bing.com/images/search?*
     userAgent: desktop
     results:
@@ -58,6 +64,8 @@ pages:
   - name: Images (mobile)
     matches:
       - https://www.bing.com/images/search?*
+      - https://www2.bing.com/images/search?*
+      - https://www4.bing.com/images/search?*
       - https://cn.bing.com/images/search?*
     userAgent: mobile
     results:
@@ -76,6 +84,8 @@ pages:
   - name: Videos (desktop)
     matches:
       - https://www.bing.com/videos/search?*
+      - https://www2.bing.com/videos/search?*
+      - https://www4.bing.com/videos/search?*
       - https://cn.bing.com/videos/search?*
     userAgent: desktop
     results:
@@ -91,6 +101,8 @@ pages:
   - name: Videos (mobile)
     matches:
       - https://www.bing.com/videos/search?*
+      - https://www2.bing.com/videos/search?*
+      - https://www4.bing.com/videos/search?*
       - https://cn.bing.com/videos/search?*
     userAgent: mobile
     results:
@@ -105,6 +117,8 @@ pages:
   - name: News (desktop)
     matches:
       - https://www.bing.com/news/search?*
+      - https://www2.bing.com/news/search?*
+      - https://www4.bing.com/news/search?*
       - https://cn.bing.com/news/search?*
     userAgent: desktop
     results:
@@ -119,6 +133,8 @@ pages:
   - name: News (mobile)
     matches:
       - https://www.bing.com/news/search?*
+      - https://www2.bing.com/news/search?*
+      - https://www4.bing.com/news/search?*
       - https://cn.bing.com/news/search?*
     userAgent: mobile
     results:
