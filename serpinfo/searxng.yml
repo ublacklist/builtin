@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-10-27T13:40:39Z
+lastModified: 2025-11-03T22:45:51Z
 
 pages:
   - name: All
@@ -38,7 +38,6 @@ pages:
       - https://find.xenorio.xyz/*
       - https://kantan.cat/*
       - https://metacat.online/*
-      - https://northboot.xyz/*
       - https://o5.gg/*
       - https://ooglester.com/*
       - https://opnxng.com/*
@@ -51,11 +50,11 @@ pages:
       - https://search.buddyverse.net/*
       - https://search.catboy.house/*
       - https://search.charliewhiskey.net/*
+      - https://search.darkness.services/*
       - https://search.einfachzocken.eu/*
       - https://search.ethibox.fr/*
       - https://search.femboy.ad/*
       - https://search.hbubli.cc/*
-      - https://search.iguru.gr/*
       - https://search.im-in.space/*
       - https://search.indst.eu/*
       - https://search.inetol.net/*
@@ -66,6 +65,7 @@ pages:
       - https://search.mdosch.de/*
       - https://search.mycotrip.tech/*
       - https://search.nerdvpn.de/*
+      - https://search.notsparkable.org/*
       - https://search.oh64.moe/*
       - https://search.ononoki.org/*
       - https://search.perditum.com/*
@@ -73,12 +73,10 @@ pages:
       - https://search.rhscz.eu/*
       - https://search.rowie.at/*
       - https://search.sapti.me/*
-      - https://search.system51.co.uk/*
       - https://search.undertale.uk/*
       - https://search.url4irl.com/*
       - https://searx.ankha.ac/*
       - https://searx.dresden.network/*
-      - https://searx.foobar.vip/*
       - https://searx.foss.family/*
       - https://searx.juancord.xyz/*
       - https://searx.lunar.icu/*
@@ -99,7 +97,6 @@ pages:
       - https://searx.zhenyapav.com/*
       - https://searxng.biz/*
       - https://searxng.canine.tools/*
-      - https://searxng.deliberate.world/*
       - https://searxng.f24o.zip/*
       - https://searxng.hweeren.com/*
       - https://searxng.mcgee.red/*
