@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-11-03T22:45:51Z
+lastModified: 2025-11-23T08:09:29Z
 
 pages:
   - name: All
@@ -37,7 +37,6 @@ pages:
       - https://fairsuch.net/*
       - https://find.xenorio.xyz/*
       - https://kantan.cat/*
-      - https://metacat.online/*
       - https://o5.gg/*
       - https://ooglester.com/*
       - https://opnxng.com/*
@@ -45,7 +44,10 @@ pages:
       - https://priv.au/*
       - https://s.mble.dk/*
       - https://search.2b9t.xyz/*
+      - https://search.a14r.be/*
+      - https://search.abohiccups.com/*
       - https://search.anoni.net/*
+      - https://search.atl.tools/*
       - https://search.bladerunn.in/*
       - https://search.buddyverse.net/*
       - https://search.catboy.house/*
@@ -74,10 +76,10 @@ pages:
       - https://search.rowie.at/*
       - https://search.sapti.me/*
       - https://search.undertale.uk/*
+      - https://search.unredacted.org/*
       - https://search.url4irl.com/*
       - https://searx.ankha.ac/*
       - https://searx.dresden.network/*
-      - https://searx.foss.family/*
       - https://searx.juancord.xyz/*
       - https://searx.lunar.icu/*
       - https://searx.mbuf.net/*
@@ -97,9 +99,9 @@ pages:
       - https://searx.zhenyapav.com/*
       - https://searxng.biz/*
       - https://searxng.canine.tools/*
+      - https://searxng.cups.moe/*
       - https://searxng.f24o.zip/*
       - https://searxng.hweeren.com/*
-      - https://searxng.mcgee.red/*
       - https://searxng.shreven.org/*
       - https://searxng.site/*
       - https://searxng.website/*
