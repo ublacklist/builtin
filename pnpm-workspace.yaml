@@ -1,4 +1,8 @@
-onlyBuiltDependencies:
-  - lefthook
+allowBuilds:
+  lefthook: true
 
-useNodeVersion: 24.6.0
+minimumReleaseAge: 1440 # 1 day
+
+trustPolicy: no-downgrade
+
+blockExoticSubdeps: true
