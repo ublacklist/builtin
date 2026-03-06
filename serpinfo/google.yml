@@ -270,7 +270,7 @@ pages:
     results:
       - name: Default
         root: .vt6azd
-        url: a[role="presentation"]
+        url: .UBFage, a[role="presentation"]
         props:
           title: '[role="heading"][aria-level="3"]'
         button: [inset, { top: "16px", right: "32px" }]
