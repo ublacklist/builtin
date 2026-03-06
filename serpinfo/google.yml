@@ -1,6 +1,6 @@
 name: Google
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-07-26T14:46:06Z
+lastModified: 2026-03-06T15:08:22Z
 
 pages:
   - name: Web (desktop)
@@ -270,7 +270,7 @@ pages:
     results:
       - name: Default
         root: .vt6azd
-        url: a[role="presentation"]
+        url: .UBFage, a[role="presentation"]
         props:
           title: '[role="heading"][aria-level="3"]'
         button: [inset, { top: "16px", right: "32px" }]
