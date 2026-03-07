@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-03-07T13:48:12Z
+lastModified: 2026-03-07T14:38:03Z
 
 pages:
   - name: All
@@ -72,6 +72,7 @@ pages:
       - https://search.serpensin.com/*
       - https://search.undertale.uk/*
       - https://search.unredacted.org/*
+      - https://search.url4irl.com/*
       - https://search.wdpserver.com/*
       - https://search.zina.dev/*
       - https://searx.ankha.ac/*
