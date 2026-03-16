@@ -14,6 +14,9 @@ defaults:
 
 jobs:
   check:
+    permissions:
+      contents: read
+
     uses: ./.github/workflows/check.yml
 
   deploy:
