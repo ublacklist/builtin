@@ -3,7 +3,7 @@ name: Update SearXNG Instances
 on:
   schedule:
     - cron: "0 15 * * 5"
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions: {}
 
