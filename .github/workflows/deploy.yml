@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions: {}
 
@@ -13,7 +13,12 @@ defaults:
     shell: bash
 
 jobs:
+  check:
+    uses: ./.github/workflows/check.yml
+
   deploy:
+    needs: check
+
     runs-on: ubuntu-latest
 
     permissions:
