@@ -8,9 +8,7 @@ The extension periodically downloads the latest SERPINFO files from this reposit
 
 ## Contribution
 
-If you find broken SERPINFO, feel free to submit a pull request.
-
-Please follow the existing format and keep changes minimal and focused.
+For bug reports, questions, or suggestions, please visit [uBlacklist Discussions](https://github.com/iorate/ublacklist/discussions).
 
 ### SearXNG Instances
 
