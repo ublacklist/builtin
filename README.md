@@ -8,7 +8,9 @@ The extension periodically downloads the latest SERPINFO files from this reposit
 
 ## Contribution
 
-For bug reports, questions, or suggestions, please visit [uBlacklist Discussions](https://github.com/iorate/ublacklist/discussions).
+For bug reports, questions, or suggestions, please visit [uBlacklist Discussions](https://github.com/iorate/ublacklist/discussions). See the [contribution guidelines](https://github.com/iorate/ublacklist/blob/master/CONTRIBUTING.md) for details.
+
+Pull requests that fix existing built-in SERPINFO files are especially welcome — if you notice that uBlacklist is not working correctly on a search engine listed here, please feel free to send a fix.
 
 ### SearXNG Instances
 
