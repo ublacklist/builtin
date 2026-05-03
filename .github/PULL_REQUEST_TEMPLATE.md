@@ -12,7 +12,7 @@ Maintainers may skip or remove the checklist below.
 ### Checklist
 
 - [ ] I have read [CONTRIBUTING.md](https://github.com/iorate/ublacklist/blob/master/CONTRIBUTING.md).
-- [ ] This is a trivial fix (typo fix, comment fix, minimal bug fix), or an issue is linked below.
+- [ ] This is a trivial fix (typo fix, comment fix, minimal bug fix, fix to an existing built-in SERPINFO), or an issue is linked below.
 - [ ] This is not a new built-in SERPINFO.
 
 ### Linked issue
