@@ -196,7 +196,7 @@ pages:
     userAgent: desktop
     results:
       - name: Default
-        root: .vt6azd:not(.g-blk)
+        root: ".vt6azd:not(.g-blk), .Ww4FFb:has(:is(.yuRUbf, .xe8e1b) a)"
         url: :is(.yuRUbf, .xe8e1b) a
         props:
           title: h3
@@ -269,7 +269,7 @@ pages:
     userAgent: mobile
     results:
       - name: Default
-        root: .vt6azd
+        root: '.vt6azd, .Ww4FFb:has(:is(.UBFage, a[role="presentation"]))'
         url: .UBFage, a[role="presentation"]
         props:
           title: '[role="heading"][aria-level="3"]'
