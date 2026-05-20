@@ -229,10 +229,16 @@ pages:
     includeRegex: "[?&]udm=2(&|$)"
     userAgent: desktop
     results:
-      - root: .ivg-i
+      - name: Images
+        root: .ivg-i:not(.my5z3d)
         url: .EZAeBe
         props:
           title: .OSrXXb
+      - name: Related Images
+        root: [upward, 1, ".ivg-i.my5z3d"]
+        url: .LBcIee
+        props:
+          title: .ddBkwd
     commonProps:
       $site: google
       $category: images
