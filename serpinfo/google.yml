@@ -1,6 +1,6 @@
 name: Google
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-05-19T10:40:04Z
+lastModified: 2026-05-20T14:39:19Z
 
 pages:
   - name: Web (desktop)
@@ -229,10 +229,16 @@ pages:
     includeRegex: "[?&]udm=2(&|$)"
     userAgent: desktop
     results:
-      - root: .ivg-i
+      - name: Images
+        root: .ivg-i:not(.my5z3d)
         url: .EZAeBe
         props:
           title: .OSrXXb
+      - name: Related Images
+        root: [upward, 1, ".ivg-i.my5z3d"]
+        url: .LBcIee
+        props:
+          title: .ddBkwd
     commonProps:
       $site: google
       $category: images
