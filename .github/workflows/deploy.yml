@@ -13,15 +13,7 @@ defaults:
     shell: bash
 
 jobs:
-  check:
-    permissions:
-      contents: read
-
-    uses: ./.github/workflows/check.yml
-
   deploy:
-    needs: check
-
     runs-on: ubuntu-latest
 
     permissions:
@@ -31,6 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
+          persist-credentials: false
           ref: dist
 
       - name: Copy files from main
@@ -57,7 +50,10 @@ jobs:
           if ! git diff --quiet serpinfo; then
             git config user.name github-actions[bot]
             git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
             git add serpinfo
             git commit -m "update serpinfo"
             git push
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
