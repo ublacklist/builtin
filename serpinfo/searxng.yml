@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-05-19T10:40:48Z
+lastModified: 2026-05-30T13:50:07Z
 
 pages:
   - name: All
@@ -79,7 +79,6 @@ pages:
       - https://searx.mxchange.org/*
       - https://searx.namejeff.xyz/*
       - https://searx.oloke.xyz/*
-      - https://searx.ox2.fr/*
       - https://searx.party/*
       - https://searx.perennialte.ch/*
       - https://searx.rajimayur.me/*
@@ -90,7 +89,6 @@ pages:
       - https://searx.tiekoetter.com/*
       - https://searx.tsmdt.de/*
       - https://searx.tuxcloud.net/*
-      - https://searxng.blablalinux.be/*
       - https://searxng.canine.tools/*
       - https://searxng.cups.moe/*
       - https://searxng.deggo.fyi/*
