@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-05-30T13:50:07Z
+lastModified: 2026-06-07T08:33:15Z
 
 pages:
   - name: All
@@ -98,6 +98,7 @@ pages:
       - https://searxng.shreven.org/*
       - https://searxng.site/*
       - https://searxng.website/*
+      - https://searxng.wuemeli.com/*
       - https://seek.fyi/*
       - https://sx.catgirl.cloud/*
       - https://www.gruble.de/*
