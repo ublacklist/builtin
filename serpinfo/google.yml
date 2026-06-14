@@ -192,7 +192,7 @@ pages:
       - https://www.google.co.zm/search?*
       - https://www.google.co.zw/search?*
       - https://www.google.cat/search?*
-    excludeRegex: "[?&](udm=(?!14(&|$))|tbm=(?!&|$))"
+    excludeRegex: "[?&](udm=(?!14|web(&|$))|tbm=(?!&|$))"
     userAgent: desktop
     results:
       - name: Default
@@ -271,7 +271,7 @@ pages:
 
   - name: Web (mobile)
     matches: *matches
-    excludeRegex: "[?&](udm=(?!14(&|$))|tbm=(?!&|$))"
+    excludeRegex: "[?&](udm=(?!14|web(&|$))|tbm=(?!&|$))"
     userAgent: mobile
     results:
       - name: Default
