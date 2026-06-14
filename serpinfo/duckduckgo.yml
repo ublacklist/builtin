@@ -1,6 +1,6 @@
 name: DuckDuckGo
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-08-03T07:36:45Z
+lastModified: 2026-06-14T05:15:35Z
 
 pages:
   - name: Default
@@ -73,3 +73,18 @@ pages:
         props:
           title: h2
           $category: [const, "news"]
+
+  - name: HTML
+    matches:
+      - https://html.duckduckgo.com/html/
+      - https://html.duckduckgo.com/html/?*
+    commonProps:
+      $site: duckduckgo
+      $category: web
+    results:
+      - name: Default
+        root: .result
+        url: .result__a
+        props:
+          # Use ".result__a" instead of ".result__title", which has preceding whitespaces.
+          title: .result__a
