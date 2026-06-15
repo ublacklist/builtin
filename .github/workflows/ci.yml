@@ -41,6 +41,9 @@ jobs:
       - name: pnpm tsgo
         run: pnpm tsgo
 
+      - name: pnpm node ./scripts/check-serpinfo.ts
+        run: pnpm node ./scripts/check-serpinfo.ts
+
   actionlint:
     runs-on: ubuntu-latest
 
