@@ -14,17 +14,17 @@
     "update-searxng-instances": "node ./scripts/update-searxng-instances.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.7",
-    "@types/node": "^24.12.0",
-    "@typescript/native-preview": "7.0.0-dev.20260314.1",
-    "lefthook": "^2.1.4",
-    "prettier": "^3.8.1"
+    "@biomejs/biome": "^2.5.0",
+    "@types/node": "^24.13.2",
+    "@typescript/native-preview": "7.0.0-dev.20260421.2",
+    "lefthook": "^2.1.9",
+    "prettier": "^3.8.4"
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@11.6.0",
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.14.0",
+      "version": "^24.16.0",
       "onFail": "download"
     }
   }
