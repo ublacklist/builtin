@@ -103,4 +103,4 @@ pages:
         url: .result-link
         props:
           title: .result-link
-        button: [inset, { top: "-1em", right: "-1em" }]
+          button: [text, { position: "afterend", style: "display: inline; margin: 0 3px" }, ".result-link"]
