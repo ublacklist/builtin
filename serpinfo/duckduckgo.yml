@@ -103,4 +103,8 @@ pages:
         url: .result-link
         props:
           title: .result-link
-        button: [text, { position: "afterend", style: "display: inline; font-size: 72.269%; margin: 0 4px" }, ".result-link"]
+        button:
+          - text
+          - position: "afterend"
+            style: "display: inline; font-size: 72.269%; margin: 0 4px"
+          - ".result-link"
