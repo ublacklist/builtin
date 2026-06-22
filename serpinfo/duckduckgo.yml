@@ -1,6 +1,6 @@
 name: DuckDuckGo
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-06-14T05:15:35Z
+lastModified: 2026-06-22T23:30:01Z
 
 pages:
   - name: Default
@@ -88,3 +88,23 @@ pages:
         props:
           # Use ".result__a" instead of ".result__title", which has preceding whitespaces.
           title: .result__a
+
+  - name: Lite
+    matches:
+      - https://lite.duckduckgo.com/lite/
+      - https://lite.duckduckgo.com/lite/?*
+    commonProps:
+      $site: duckduckgo
+      $category: web
+    results:
+      - name: Default
+        root: tr:has(.result-link)
+        extraSelector: "& + tr, & + tr + tr, & + tr + tr + tr"
+        url: .result-link
+        props:
+          title: .result-link
+        button:
+          - text
+          - position: "afterend"
+            style: "display: inline; font-size: 72.269%; margin: 0 4px"
+          - ".result-link"
