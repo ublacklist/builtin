@@ -8,7 +8,7 @@
     "check:biome": "biome check",
     "check:prettier": "prettier --check **/*.{md,yaml,yml}",
     "check:serpinfo": "node ./scripts/check-serpinfo.ts",
-    "check:typescript": "tsgo",
+    "check:typescript": "tsc",
     "fix": "pnpm run /^fix:/",
     "fix:biome": "biome check --write",
     "fix:prettier": "prettier --write **/*.{md,yaml,yml}",
@@ -17,16 +17,16 @@
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",
     "@types/node": "^24.13.2",
-    "@typescript/native-preview": "7.0.0-dev.20260421.2",
-    "@ublacklist/serpinfo": "^1.0.1",
+    "@ublacklist/serpinfo": "^1.1.0",
     "lefthook": "^2.1.9",
-    "prettier": "^3.8.4"
+    "prettier": "^3.8.4",
+    "typescript": "7.0.1-rc"
   },
-  "packageManager": "pnpm@11.6.0",
+  "packageManager": "pnpm@11.8.0",
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.16.0",
+      "version": "^24.17.0",
       "onFail": "download"
     }
   }
