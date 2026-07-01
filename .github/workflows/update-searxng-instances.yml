@@ -1,4 +1,4 @@
-name: "SearXNG: Update Instances"
+name: Update SearXNG instances
 
 on:
   schedule:
@@ -12,7 +12,7 @@ defaults:
     shell: bash
 
 jobs:
-  searxng-update-instances:
+  update-searxng-instances:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,8 +27,8 @@ jobs:
           run_install: true
           cache: true
 
-      - name: pnpm searxng:update-instances
-        run: pnpm searxng:update-instances
+      - name: pnpm update-searxng-instances
+        run: pnpm update-searxng-instances
 
       - name: Generate token
         id: generate-token
@@ -44,5 +44,5 @@ jobs:
         with:
           token: ${{ steps.generate-token.outputs.token }}
           commit-message: "[SearXNG] Update instances"
-          branch: searxng-update-instances
+          branch: update-searxng-instances
           title: "[SearXNG] Update instances"
