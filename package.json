@@ -12,7 +12,7 @@
     "fix": "pnpm run /^fix:/",
     "fix:biome": "biome check --write",
     "fix:prettier": "prettier --write **/*.{md,yaml,yml}",
-    "searxng:update-instances": "node ./scripts/searxng-update-instances.ts"
+    "update-searxng-instances": "node ./scripts/update-searxng-instances.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.0",
