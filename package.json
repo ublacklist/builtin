@@ -15,18 +15,18 @@
     "searxng:update-instances": "node ./scripts/searxng-update-instances.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.0",
-    "@types/node": "^24.13.2",
-    "@ublacklist/serpinfo": "^1.1.0",
-    "lefthook": "^2.1.9",
-    "prettier": "^3.8.4",
+    "@biomejs/biome": "2.5.0",
+    "@types/node": "24.13.2",
+    "@ublacklist/serpinfo": "1.1.0",
+    "lefthook": "2.1.9",
+    "prettier": "3.8.4",
     "typescript": "7.0.1-rc"
   },
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@11.9.0",
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.17.0",
+      "version": "24.18.0",
       "onFail": "download"
     }
   }
