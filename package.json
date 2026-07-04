@@ -15,11 +15,11 @@
     "update-searxng-instances": "node ./scripts/update-searxng-instances.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.0",
+    "@biomejs/biome": "2.5.1",
     "@types/node": "24.13.2",
     "@ublacklist/serpinfo": "1.1.0",
     "lefthook": "2.1.9",
-    "prettier": "3.8.4",
+    "prettier": "3.9.4",
     "typescript": "7.0.1-rc"
   },
   "packageManager": "pnpm@11.9.0",
