@@ -6,6 +6,6 @@ blockExoticSubdeps: true
 minimumReleaseAge: 4320 # 3 days
 
 minimumReleaseAgeExclude:
-  - "@ublacklist/serpinfo@1.0.1"
+  - "@ublacklist/*"
 
 trustPolicy: no-downgrade
