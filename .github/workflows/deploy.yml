@@ -56,13 +56,8 @@ jobs:
           permission-contents: write
 
       - name: Commit changes
-        run: |
-          if ! git diff --quiet serpinfo; then
-            git config user.name ublacklist-bot[bot]
-            git config user.email 266303437+ublacklist-bot[bot]@users.noreply.github.com
-            git add serpinfo
-            git commit -m "Update SERPINFO"
-            git -c credential.helper='!gh auth git-credential' push
-          fi
-        env:
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        uses: suzuki-shunsuke/commit-action@06e3b49d4706498d325d29bd85adc82ecf2f5d8f # v1.0.0
+        with:
+          github_token: ${{ steps.generate-token.outputs.token }}
+          branch: dist
+          commit_message: Update SERPINFO
