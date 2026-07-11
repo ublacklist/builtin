@@ -45,9 +45,17 @@ jobs:
           permission-pull-requests: write
 
       - name: Create pull request
+        id: create-pull-request
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           token: ${{ steps.generate-token.outputs.token }}
           commit-message: "[SearXNG] Update instances"
           branch: update-searxng-instances
+          sign-commits: true
           title: "[SearXNG] Update instances"
+
+      - name: Enable auto-merge
+        run: gh pr merge --squash --auto "$PULL_REQUEST_NUMBER"
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          PULL_REQUEST_NUMBER: ${{ steps.create-pull-request.outputs.pull-request-number }}
