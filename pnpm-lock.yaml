@@ -15,8 +15,8 @@ importers:
         specifier: 24.13.3
         version: 24.13.3
       '@ublacklist/serpinfo':
-        specifier: 1.1.1
-        version: 1.1.1
+        specifier: 2.0.0
+        version: 2.0.0
       lefthook:
         specifier: 2.1.10
         version: 2.1.10
@@ -212,11 +212,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@ublacklist/match-pattern@1.2.0':
-    resolution: {integrity: sha512-IIf45TnANZvEvYYqDQKXlFYoM58P0xK6NEgtQr21VRbCQgjHUwfaGFKVNvd6+X8cyKcinoOLUXqtCcdeG10/5A==}
+  '@ublacklist/match-pattern@2.0.0':
+    resolution: {integrity: sha512-iR5GAS1V0g3lC06Y6jWDVA6pe6j1V88TfY8sD3oXTvfk8JurBh7o90jHWANax7VthXmcnFO2QKad6yJb8c5HCQ==}
 
-  '@ublacklist/serpinfo@1.1.1':
-    resolution: {integrity: sha512-cRH0JwX+g3pOSpule/xcGaOWdMC5En4GPQxyTdSlbBRrd6spHwwE/B2KRoS81NDmX+ru/w4d0bZbzjOxROdqkw==}
+  '@ublacklist/serpinfo@2.0.0':
+    resolution: {integrity: sha512-0gpcL4XJ0NLubstBQXOqj3/gm9z+WZFS91tGX0HqIwed0f4LLhWUrot/ezeDYbmy/hzYemFyN2Dfw5QMosax8A==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -534,11 +534,11 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  '@ublacklist/match-pattern@1.2.0': {}
+  '@ublacklist/match-pattern@2.0.0': {}
 
-  '@ublacklist/serpinfo@1.1.1':
+  '@ublacklist/serpinfo@2.0.0':
     dependencies:
-      '@ublacklist/match-pattern': 1.2.0
+      '@ublacklist/match-pattern': 2.0.0
       css-tree: 3.2.1
       js-yaml: 5.2.1
       zod: 4.4.3
