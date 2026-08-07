@@ -17,7 +17,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.7",
     "@types/node": "24.13.3",
-    "@ublacklist/serpinfo": "1.1.1",
+    "@ublacklist/serpinfo": "2.0.0",
     "lefthook": "2.1.10",
     "prettier": "3.9.6",
     "typescript": "7.0.2"
