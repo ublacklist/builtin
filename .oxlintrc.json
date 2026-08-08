@@ -8,18 +8,6 @@
   },
   "rules": {
     "curly": "error",
-    "typescript/no-floating-promises": [
-      "error",
-      {
-        "allowForKnownSafeCalls": [
-          {
-            "from": "package",
-            "package": "node:test",
-            "name": ["test", "suite"]
-          }
-        ]
-      }
-    ],
     "import/extensions": ["error", "ignorePackages"]
   }
 }
