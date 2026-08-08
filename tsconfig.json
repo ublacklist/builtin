@@ -1,4 +1,6 @@
 {
+  "include": ["scripts"],
+
   "compilerOptions": {
     // Type Checking
     "exactOptionalPropertyTypes": true,
