@@ -5,29 +5,28 @@
   "type": "module",
   "scripts": {
     "check": "pnpm run /^check:/",
-    "check:biome": "biome check",
-    "check:prettier": "prettier --check **/*.{md,yaml,yml}",
+    "check:lint": "oxlint",
+    "check:format": "oxfmt --check",
     "check:serpinfo": "node ./scripts/check-serpinfo.ts",
-    "check:typescript": "tsc",
     "fix": "pnpm run /^fix:/",
-    "fix:biome": "biome check --write",
-    "fix:prettier": "prettier --write **/*.{md,yaml,yml}",
+    "fix:lint": "oxlint --fix",
+    "fix:format": "oxfmt",
     "update-searxng-instances": "node ./scripts/update-searxng-instances.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.7",
     "@types/node": "24.13.3",
     "@ublacklist/serpinfo": "2.0.0",
     "lefthook": "2.1.10",
-    "prettier": "3.9.6",
-    "typescript": "7.0.2"
+    "oxfmt": "0.62.0",
+    "oxlint": "1.77.0",
+    "oxlint-tsgolint": "7.0.2001"
   },
-  "packageManager": "pnpm@11.20.0",
   "devEngines": {
     "runtime": {
       "name": "node",
       "version": "24.18.0",
       "onFail": "download"
     }
-  }
+  },
+  "packageManager": "pnpm@11.20.0"
 }
