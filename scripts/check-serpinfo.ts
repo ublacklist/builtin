@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+
 import { parse } from "@ublacklist/serpinfo";
 
 async function main() {
