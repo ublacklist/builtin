@@ -31,12 +31,12 @@ pages:
     matches:
       # DO NOT EDIT: The instance list is periodically retrieved from [searxng/searx-instances](https://github.com/searxng/searx-instances).
       - https://baresearch.org/*
-      - https://copp.gg/*
       - https://etsi.me/*
       - https://failsearx.culturanerd.it/*
       - https://find.xenorio.xyz/*
       - https://grep.vim.wtf/*
       - https://kantan.cat/*
+      - https://libresearch.space/*
       - https://ooglester.com/*
       - https://opnxng.com/*
       - https://paulgo.io/*
@@ -55,7 +55,6 @@ pages:
       - https://search.im-in.space/*
       - https://search.indst.eu/*
       - https://search.inetol.net/*
-      - https://search.internetsucks.net/*
       - https://search.jns.net.ar/*
       - https://search.liuzj.net/*
       - https://search.lumy.live/*
@@ -66,19 +65,14 @@ pages:
       - https://search.pi.vps.pw/*
       - https://search.privacyredirect.com/*
       - https://search.rhscz.eu/*
-      - https://search.root.hr/*
       - https://search.rowie.at/*
-      - https://search.sapti.me/*
       - https://search.seddens.net/*
       - https://search.serpensin.com/*
       - https://search.undertale.uk/*
       - https://search.unredacted.org/*
-      - https://search.url4irl.com/*
-      - https://search.wdpserver.com/*
       - https://search.yuri.llc/*
       - https://search.zina.dev/*
       - https://searx.ankha.ac/*
-      - https://searx.drayko.xyz/*
       - https://searx.dresden.network/*
       - https://searx.linxx.net/*
       - https://searx.mbuf.net/*
@@ -95,6 +89,7 @@ pages:
       - https://searx.thefloatinglab.world/*
       - https://searx.tiekoetter.com/*
       - https://searx.tsmdt.de/*
+      - https://searxng.buffon.cloud/*
       - https://searxng.canine.tools/*
       - https://searxng.cups.moe/*
       - https://searxng.deggo.fyi/*
@@ -109,7 +104,6 @@ pages:
       - https://searxng.tr/*
       - https://searxng.website/*
       - https://searxng.wuemeli.com/*
-      - https://seek.fyi/*
       - https://sx.catgirl.cloud/*
       - https://sx.h4rl3y.xyz/*
       - https://www.gruble.de/*
