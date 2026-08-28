@@ -1,6 +1,6 @@
 name: Google
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-06-14T04:50:28Z
+lastModified: 2026-08-28T01:03:31Z
 
 pages:
   - name: Web (desktop)
@@ -197,7 +197,14 @@ pages:
     results:
       - name: Default
         root: ".vt6azd:not(.g-blk), .Ww4FFb"
-        url: :is(.yuRUbf, .xe8e1b) a
+        url:
+          - or
+          - - [
+                regexInclude,
+                "^https?://",
+                [attribute, href, ":is(.yuRUbf, .xe8e1b) a"],
+              ]
+            - [domainToURL, cite]
         props:
           title: h3
       - name: Images
@@ -276,7 +283,14 @@ pages:
     results:
       - name: Default
         root: ".vt6azd, .Ww4FFb"
-        url: .UBFage, a[role="presentation"]
+        url:
+          - or
+          - - [
+                regexInclude,
+                "^https?://",
+                [attribute, href, '.UBFage, a[role="presentation"]'],
+              ]
+            - [domainToURL, ".ob9lvb"]
         props:
           title: '[role="heading"][aria-level="3"]'
         button: [inset, { top: "16px", right: "32px" }]
