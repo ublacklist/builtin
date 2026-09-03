@@ -30,6 +30,7 @@ pages:
       $site: searx # backwards compatibility
     matches:
       # DO NOT EDIT: The instance list is periodically retrieved from [searxng/searx-instances](https://github.com/searxng/searx-instances).
+      - https://anonsearch.win/*
       - https://baresearch.org/*
       - https://etsi.me/*
       - https://failsearx.culturanerd.it/*
@@ -68,6 +69,7 @@ pages:
       - https://search.rowie.at/*
       - https://search.seddens.net/*
       - https://search.serpensin.com/*
+      - https://search.spiralab.org/*
       - https://search.undertale.uk/*
       - https://search.unredacted.org/*
       - https://search.yuri.llc/*
@@ -106,5 +108,6 @@ pages:
       - https://searxng.wuemeli.com/*
       - https://sx.catgirl.cloud/*
       - https://sx.h4rl3y.xyz/*
+      - https://sx.xo.st/*
       - https://www.gruble.de/*
       - https://xka.cz/*
