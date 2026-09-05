@@ -1,6 +1,6 @@
 name: Yahoo! JAPAN
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-04-29T09:49:28Z
+lastModified: 2026-09-05T03:17:35Z
 
 pages:
   - name: Web
@@ -27,7 +27,7 @@ pages:
           title: .sw-Thumbnail__title
         button: [inset, { top: 0, right: 0, zIndex: 4 }]
         preserveSpace: true
-    commonsProps:
+    commonProps:
       $site: yahooJapan
       $category: images
     delay: true
@@ -45,7 +45,7 @@ pages:
           - [attribute, "data-cl-params", ".sw-ThumbnailGrid__details"]
         props:
           title: .sw-ThumbnailGrid__title
-    commonsProps:
+    commonProps:
       $site: yahooJapan
       $category: images
     delay: true
