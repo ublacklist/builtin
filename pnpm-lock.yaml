@@ -12,8 +12,8 @@ importers:
         specifier: 24.13.3
         version: 24.13.3
       '@ublacklist/serpinfo':
-        specifier: 2.0.0
-        version: 2.0.0
+        specifier: 3.0.0
+        version: 3.0.0
       lefthook:
         specifier: 2.1.12
         version: 2.1.12
@@ -312,8 +312,8 @@ packages:
   '@ublacklist/match-pattern@2.0.0':
     resolution: {integrity: sha512-iR5GAS1V0g3lC06Y6jWDVA6pe6j1V88TfY8sD3oXTvfk8JurBh7o90jHWANax7VthXmcnFO2QKad6yJb8c5HCQ==}
 
-  '@ublacklist/serpinfo@2.0.0':
-    resolution: {integrity: sha512-0gpcL4XJ0NLubstBQXOqj3/gm9z+WZFS91tGX0HqIwed0f4LLhWUrot/ezeDYbmy/hzYemFyN2Dfw5QMosax8A==}
+  '@ublacklist/serpinfo@3.0.0':
+    resolution: {integrity: sha512-RgmZ3qxPzmQgRdjB2GG4CPrwnOJ3dgaLjSl00/je0X5f8eH2pfUVEkVVbNBzCTWvj1dJlQl5XURn8+3ySQi2/w==}
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -694,7 +694,7 @@ snapshots:
 
   '@ublacklist/match-pattern@2.0.0': {}
 
-  '@ublacklist/serpinfo@2.0.0':
+  '@ublacklist/serpinfo@3.0.0':
     dependencies:
       '@ublacklist/match-pattern': 2.0.0
       css-tree: 3.2.1
