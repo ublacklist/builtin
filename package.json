@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "24.13.3",
-    "@ublacklist/serpinfo": "2.0.0",
+    "@ublacklist/serpinfo": "3.0.0",
     "lefthook": "2.1.12",
     "oxfmt": "0.66.0",
     "oxlint": "1.81.0",
