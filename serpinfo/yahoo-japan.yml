@@ -27,7 +27,7 @@ pages:
           title: .sw-Thumbnail__title
         button: [inset, { top: 0, right: 0, zIndex: 4 }]
         preserveSpace: true
-    commonsProps:
+    commonProps:
       $site: yahooJapan
       $category: images
     delay: true
@@ -45,7 +45,7 @@ pages:
           - [attribute, "data-cl-params", ".sw-ThumbnailGrid__details"]
         props:
           title: .sw-ThumbnailGrid__title
-    commonsProps:
+    commonProps:
       $site: yahooJapan
       $category: images
     delay: true
