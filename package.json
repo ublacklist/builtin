@@ -14,7 +14,7 @@
     "update-searxng-instances": "node ./scripts/update-searxng-instances.ts"
   },
   "devDependencies": {
-    "@types/node": "26.6.0",
+    "@types/node": "26.6.1",
     "@ublacklist/serpinfo": "3.0.0",
     "lefthook": "2.1.14",
     "oxfmt": "0.68.0",
