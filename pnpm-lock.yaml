@@ -167,8 +167,8 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: 26.6.0
-        version: 26.6.0
+        specifier: 26.6.1
+        version: 26.6.1
       '@ublacklist/serpinfo':
         specifier: 3.0.0
         version: 3.0.0
@@ -464,8 +464,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/node@26.6.0':
-    resolution: {integrity: sha512-FWWQhDlKSnEJVe+CTJCQL8Fol7s1MKo3Ud0fjryxoOoH+hwMIPxol0MguYrLi2I0VvIFwOU2DwdWET2+px15qg==}
+  '@types/node@26.6.1':
+    resolution: {integrity: sha512-VqGJBMCtdhqkBUCcBLvywI0NJ+KLuVzgNnlBUNFOQjqVxzo2lxLUNg1DSey8+u2u6ktswSAxg+s68QLzWHNOuA==}
 
   '@ublacklist/match-pattern@2.0.0':
     resolution: {integrity: sha512-iR5GAS1V0g3lC06Y6jWDVA6pe6j1V88TfY8sD3oXTvfk8JurBh7o90jHWANax7VthXmcnFO2QKad6yJb8c5HCQ==}
@@ -857,7 +857,7 @@ snapshots:
   '@oxlint/binding-win32-x64-msvc@1.83.0':
     optional: true
 
-  '@types/node@26.6.0':
+  '@types/node@26.6.1':
     dependencies:
       undici-types: 8.9.0
 
