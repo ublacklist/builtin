@@ -1,6 +1,6 @@
 name: Google
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-08-28T01:03:31Z
+lastModified: 2026-09-19T02:24:12Z
 
 pages:
   - name: Web (desktop)
@@ -233,7 +233,7 @@ pages:
 
   - name: Images (desktop)
     matches: *matches
-    includeRegex: "[?&]udm=2(&|$)"
+    includeRegex: "[?&]udm=(2|imgs)(&|$)"
     userAgent: desktop
     results:
       - name: Images
@@ -252,7 +252,7 @@ pages:
 
   - name: Videos (desktop)
     matches: *matches
-    includeRegex: "[?&]udm=7(&|$)"
+    includeRegex: "[?&]udm=(7|vids)(&|$)"
     userAgent: desktop
     results:
       - root: .vt6azd
@@ -316,7 +316,7 @@ pages:
 
   - name: Images (mobile)
     matches: *matches
-    includeRegex: "[?&]udm=2(&|$)"
+    includeRegex: "[?&]udm=(2|imgs)(&|$)"
     userAgent: mobile
     results:
       - root: [upward, 1, ".ivg-i"]
@@ -329,7 +329,7 @@ pages:
 
   - name: Videos (mobile)
     matches: *matches
-    includeRegex: "[?&]udm=7(&|$)"
+    includeRegex: "[?&]udm=(7|vids)(&|$)"
     userAgent: mobile
     results:
       - root: .Ww4FFb
