@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-09-03T18:17:40Z
+lastModified: 2026-09-24T18:47:05Z
 
 pages:
   - name: All
@@ -38,7 +38,6 @@ pages:
       - https://grep.vim.wtf/*
       - https://kantan.cat/*
       - https://libresearch.space/*
-      - https://ooglester.com/*
       - https://opnxng.com/*
       - https://paulgo.io/*
       - https://priv.au/*
@@ -62,6 +61,7 @@ pages:
       - https://search.mdosch.de/*
       - https://search.mectov.my.id/*
       - https://search.minus27315.dev/*
+      - https://search.mizuki.st/*
       - https://search.pereira.is/*
       - https://search.pi.vps.pw/*
       - https://search.privacyredirect.com/*
@@ -110,4 +110,5 @@ pages:
       - https://sx.h4rl3y.xyz/*
       - https://sx.xo.st/*
       - https://www.gruble.de/*
+      - https://www.isci.si/*
       - https://xka.cz/*
