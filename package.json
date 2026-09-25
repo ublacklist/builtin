@@ -14,19 +14,19 @@
     "update-searxng-instances": "node ./scripts/update-searxng-instances.ts"
   },
   "devDependencies": {
-    "@types/node": "26.6.1",
+    "@types/node": "26.6.2",
     "@ublacklist/serpinfo": "3.0.0",
     "lefthook": "2.1.14",
-    "oxfmt": "0.68.0",
-    "oxlint": "1.83.0",
-    "oxlint-tsgolint": "7.0.2001"
+    "oxfmt": "0.70.0",
+    "oxlint": "1.85.0",
+    "oxlint-tsgolint": "7.0.2002"
   },
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "26.8.2",
+      "version": "26.10.0",
       "onFail": "download"
     }
   },
-  "packageManager": "pnpm@12.4.2"
+  "packageManager": "pnpm@12.6.0"
 }
