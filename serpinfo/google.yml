@@ -231,19 +231,16 @@ pages:
       $site: google
       $category: web
 
-  - name: Images (desktop)
+  - name: Images (desktop and mobile)
     matches: *matches
     includeRegex: "[?&]udm=(2|imgs)(&|$)"
-    userAgent: desktop
     results:
-      - name: Images
-        root: .ivg-i:not(.my5z3d)
-        url: .EZAeBe
-        props:
-          title: .OSrXXb
-      - name: Related Images
-        root: [upward, 1, ".ivg-i.my5z3d"]
-        url: .LBcIee
+      - name: Images and Related Images
+        root: [upward, ".kb0PBd", ".ivg-i"]
+        url:
+          - or
+          - - [regexInclude, "^https?://", [attribute, "href", ".LBcIee"]]
+            - [attribute, "data-lpage", ".ivg-i"]
         props:
           title: .ddBkwd
     commonProps:
@@ -313,19 +310,6 @@ pages:
     commonProps:
       $site: google
       $category: web
-
-  - name: Images (mobile)
-    matches: *matches
-    includeRegex: "[?&]udm=(2|imgs)(&|$)"
-    userAgent: mobile
-    results:
-      - root: [upward, 1, ".ivg-i"]
-        url: a
-        props:
-          title: .Q6A6Dc
-    commonProps:
-      $site: google
-      $category: images
 
   - name: Videos (mobile)
     matches: *matches
