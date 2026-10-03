@@ -16,6 +16,32 @@ pages:
       $category: web
     delay: 100
 
+- name: Discussions
+    matches:
+      - https://search.brave.com/search?*
+    results:
+      - root: .discussions-item
+        url: a
+        props:
+          title: .title
+    commonProps:
+      $site: brave
+      $category: web
+    delay: 100
+
+  - name: Enrichment Cards
+    matches:
+      - https://search.brave.com/search?*
+    results:
+      - root: .enrichment-card-item
+        url: [property, href]
+        props:
+          title: .t-secondary
+    commonProps:
+      $site: brave
+      $category: web
+    delay: 100
+
   - name: Images
     matches:
       - https://search.brave.com/images?*
