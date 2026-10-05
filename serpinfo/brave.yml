@@ -11,30 +11,18 @@ pages:
         url: a
         props:
           title: .title
-    commonProps:
-      $site: brave
-      $category: web
-    delay: 100
-
-- name: Discussions
-    matches:
-      - https://search.brave.com/search?*
-    results:
-      - root: .discussions-item
+      - name: Discussions
+        root: .discussions-item > .accordion-item
         url: a
         props:
           title: .title
-    commonProps:
-      $site: brave
-      $category: web
-    delay: 100
-
-  - name: Enrichment Cards
-    matches:
-      - https://search.brave.com/search?*
-    results:
-      - root: .enrichment-card-item
-        url: [property, href]
+        button:
+          - icon
+          - style: "top: calc(50% - 20px); right: 32px"
+          - "summary"
+      - name: Enrichment Cards
+        root: .enrichment-card-item
+        url: [attribute, href]
         props:
           title: .t-secondary
     commonProps:
