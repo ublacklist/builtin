@@ -11,6 +11,20 @@ pages:
         url: a
         props:
           title: .title
+      - name: Discussions
+        root: .discussions-item > .accordion-item
+        url: a
+        props:
+          title: .title
+        button:
+          - icon
+          - style: "top: calc(50% - 20px); right: 32px"
+          - "summary"
+      - name: Enrichment Cards
+        root: .enrichment-card-item
+        url: [attribute, href]
+        props:
+          title: .t-secondary
     commonProps:
       $site: brave
       $category: web
