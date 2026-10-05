@@ -1,6 +1,6 @@
 name: Brave
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2025-08-10T05:16:20Z
+lastModified: 2026-10-05T13:58:02Z
 
 pages:
   - name: Web
@@ -11,6 +11,20 @@ pages:
         url: a
         props:
           title: .title
+      - name: Discussions
+        root: .discussions-item > .accordion-item
+        url: a
+        props:
+          title: .title
+        button:
+          - icon
+          - style: "top: calc(50% - 20px); right: 32px"
+          - "summary"
+      - name: Enrichment Cards
+        root: .enrichment-card-item
+        url: [attribute, href]
+        props:
+          title: .t-secondary
     commonProps:
       $site: brave
       $category: web
