@@ -1,6 +1,6 @@
 name: DuckDuckGo
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-06-22T23:30:01Z
+lastModified: 2026-10-15T13:15:20Z
 
 pages:
   - name: Default
@@ -57,7 +57,7 @@ pages:
         root: [upward, 1, '[data-testid="zci-images"] li > figure']
         url: figcaption > a
         props:
-          title: figcaption > a > p
+          title: h3
           $category: [const, "images"]
 
       - name: Videos
