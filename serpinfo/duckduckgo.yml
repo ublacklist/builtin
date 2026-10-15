@@ -57,7 +57,7 @@ pages:
         root: [upward, 1, '[data-testid="zci-images"] li > figure']
         url: figcaption > a
         props:
-          title: figcaption > a > p
+          title: h3
           $category: [const, "images"]
 
       - name: Videos
