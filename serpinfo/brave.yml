@@ -1,11 +1,12 @@
 name: Brave
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-10-05T13:58:02Z
+lastModified: 2026-10-15T13:08:03Z
 
 pages:
   - name: Web
     matches:
       - https://search.brave.com/search?*
+      - https://safe.search.brave.com/search?*
     results:
       - root: .snippet[data-type="web"]
         url: a
@@ -33,6 +34,7 @@ pages:
   - name: Images
     matches:
       - https://search.brave.com/images?*
+      - https://safe.search.brave.com/images?*
     results:
       - root: .image-result
         url: [domainToURL, ".image-metadata-source"]
@@ -46,6 +48,7 @@ pages:
   - name: News
     matches:
       - https://search.brave.com/news?*
+      - https://safe.search.brave.com/news?*
     results:
       - root: .snippet[data-type="news"]
         url: a
@@ -59,6 +62,7 @@ pages:
   - name: Videos
     matches:
       - https://search.brave.com/videos?*
+      - https://safe.search.brave.com/videos?*
     results:
       - root: .snippet[data-type="videos"]
         url: a
