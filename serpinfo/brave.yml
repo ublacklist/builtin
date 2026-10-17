@@ -1,74 +1,64 @@
 name: Brave
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-10-15T13:08:03Z
+lastModified: 2026-10-17T14:07:13Z
 
 pages:
-  - name: Web
+  - name: Default
     matches:
       - https://search.brave.com/search?*
+      - https://search.brave.com/images?*
+      - https://search.brave.com/news?*
+      - https://search.brave.com/videos?*
       - https://safe.search.brave.com/search?*
+      - https://safe.search.brave.com/images?*
+      - https://safe.search.brave.com/news?*
+      - https://safe.search.brave.com/videos?*
     results:
-      - root: .snippet[data-type="web"]
+      - name: Web
+        root: .snippet[data-type="web"]
         url: a
         props:
           title: .title
-      - name: Discussions
+          $category: [const, "web"]
+
+      - name: Web > Discussions
         root: .discussions-item > .accordion-item
         url: a
         props:
           title: .title
+          $category: [const, "web"]
         button:
           - icon
           - style: "top: calc(50% - 20px); right: 32px"
           - "summary"
-      - name: Enrichment Cards
+
+      - name: Web > Enrichment Cards
         root: .enrichment-card-item
         url: [attribute, href]
         props:
           title: .t-secondary
-    commonProps:
-      $site: brave
-      $category: web
-    delay: 100
+          $category: [const, "web"]
 
-  - name: Images
-    matches:
-      - https://search.brave.com/images?*
-      - https://safe.search.brave.com/images?*
-    results:
-      - root: .image-result
+      - name: Images
+        root: .image-result
         url: [domainToURL, ".image-metadata-source"]
         props:
           title: .image-metadata-title
-    commonProps:
-      $site: brave
-      $category: images
-    delay: 100
+          $category: [const, "images"]
 
-  - name: News
-    matches:
-      - https://search.brave.com/news?*
-      - https://safe.search.brave.com/news?*
-    results:
-      - root: .snippet[data-type="news"]
+      - name: News
+        root: .snippet[data-type="news"]
         url: a
         props:
           title: .snippet-title
-    commonProps:
-      $site: brave
-      $category: news
-    delay: 100
+          $category: [const, "news"]
 
-  - name: Videos
-    matches:
-      - https://search.brave.com/videos?*
-      - https://safe.search.brave.com/videos?*
-    results:
-      - root: .snippet[data-type="videos"]
+      - name: Videos
+        root: .snippet[data-type="videos"]
         url: a
         props:
           title: .snippet-title
+          $category: [const, "videos"]
     commonProps:
       $site: brave
-      $category: videos
     delay: 100
