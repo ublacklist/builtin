@@ -473,8 +473,8 @@ packages:
   '@ublacklist/serpinfo@3.0.0':
     resolution: {integrity: sha512-RgmZ3qxPzmQgRdjB2GG4CPrwnOJ3dgaLjSl00/je0X5f8eH2pfUVEkVVbNBzCTWvj1dJlQl5XURn8+3ySQi2/w==}
 
-  argparse@3.0.3:
-    resolution: {integrity: sha512-Sn98ftV3KfsO8xfLPHG6oT8y+b0yvbrLgZjgPDXsharNY15tTAjqIsIju4S32nl6/iEUNNE4v+yL2Zhm8ooP3w==}
+  argparse@3.0.4:
+    resolution: {integrity: sha512-fwWK3Zq22l4XJJjx5mcBHGikIk+hJqO+32dPm0Jur7+rtG5x1scOjSfdT9ZKeWHPpsya/l0HHK4tDImBkTrtvA==}
 
   css-tree@3.2.1:
     resolution: {integrity: sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==}
@@ -874,7 +874,7 @@ snapshots:
       zod: 4.6.7
       zod-validation-error: 5.0.0(zod@4.6.7)
 
-  argparse@3.0.3: {}
+  argparse@3.0.4: {}
 
   css-tree@3.2.1:
     dependencies:
@@ -883,7 +883,7 @@ snapshots:
 
   js-yaml@5.5.0:
     dependencies:
-      argparse: 3.0.3
+      argparse: 3.0.4
 
   lefthook-darwin-arm64@2.2.1:
     optional: true
