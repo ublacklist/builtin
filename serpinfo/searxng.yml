@@ -1,6 +1,6 @@
 name: SearXNG
 homepage: https://github.com/ublacklist/builtin#readme
-lastModified: 2026-11-12T00:00:18Z
+lastModified: 2026-11-26T01:30:41Z
 
 pages:
   - name: All
@@ -32,7 +32,6 @@ pages:
       # DO NOT EDIT: The instance list is periodically retrieved from [searxng/searx-instances](https://github.com/searxng/searx-instances).
       - https://anonsearch.win/*
       - https://baresearch.org/*
-      - https://etsi.me/*
       - https://failsearx.culturanerd.it/*
       - https://find.xenorio.xyz/*
       - https://grep.vim.wtf/*
@@ -49,6 +48,7 @@ pages:
       - https://search.catboy.house/*
       - https://search.chocolatemoo53.com/*
       - https://search.ctq.ro/*
+      - https://search.dnslister.com/*
       - https://search.einfachzocken.eu/*
       - https://search.ethibox.fr/*
       - https://search.femboy.ad/*
@@ -58,8 +58,6 @@ pages:
       - https://search.jeremyh.xyz/*
       - https://search.liuzj.net/*
       - https://search.lumy.live/*
-      - https://search.mdosch.de/*
-      - https://search.mectov.my.id/*
       - https://search.minus27315.dev/*
       - https://search.mizuki.st/*
       - https://search.pereira.is/*
@@ -84,7 +82,6 @@ pages:
       - https://searx.oloke.xyz/*
       - https://searx.ononoki.org/*
       - https://searx.party/*
-      - https://searx.perennialte.ch/*
       - https://searx.redgarden.cv/*
       - https://searx.rhscz.eu/*
       - https://searx.ro/*
@@ -98,7 +95,6 @@ pages:
       - https://searxng.deggo.fyi/*
       - https://searxng.eshnetwork.space/*
       - https://searxng.gdebest.net/*
-      - https://searxng.gr/*
       - https://searxng.jaydenha.uk/*
       - https://searxng.moonshadow.dev/*
       - https://searxng.paralaxitaentomology.org/*
